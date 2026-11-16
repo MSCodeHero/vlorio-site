@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politika privatnosti — Underground Fight Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f090b; --surface: #18181b; --border: #27272a;
+    --accent: #d01c26; --text: #ffffff; --muted: #9E9FA9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 Inter, system-ui, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1, h2 { font-family: Oswald, Impact, sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .02em; }
+  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 8px; border-left: 4px solid var(--accent); padding-left: 12px; }
+  h2 { font-size: 22px; margin: 40px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  ul { padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--text); text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border: 1px solid var(--border); }
+  th { background: var(--surface); font-weight: 500; }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  @media (max-width: 520px) { table, tbody, tr, th, td { display: block; } thead { display: none; } td { border-top: 0; } td:first-child { border-top: 1px solid var(--border); background: var(--surface); font-weight: 500; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Politika privatnosti</h1>
+  <p class="meta">Aplikacija Underground Fight Club // Pirot // važi od 16.11.2026.</p>
+
+  <p>Ova politika objašnjava koje podatke aplikacija Underground Fight Club (u daljem tekstu: aplikacija) prikuplja, zašto, ko ih vidi i kako ih možeš obrisati. Aplikacija služi članovima kluba Underground Fight Club iz Pirota za prijavu na treninge, evidenciju dolazaka i praćenje uplata.</p>
+
+  <h2>Ko je odgovoran</h2>
+  <p>Aplikaciju je napravio i održava Perica, za klub Underground Fight Club, Pirot. Za sva pitanja o privatnosti piši na <a href="mailto:perica.joncic97@gmail.com">perica.joncic97@gmail.com</a>.</p>
+
+  <h2>Koje podatke prikupljamo</h2>
+  <table>
+    <thead><tr><th>Podatak</th><th>Zašto</th></tr></thead>
+    <tbody>
+      <tr><td>Ime i prezime, e-mail, broj telefona</td><td>Nalog i prijava, da te trener i uprava kluba prepoznaju i mogu da te kontaktiraju.</td></tr>
+      <tr><td>Lozinka</td><td>Prijava. Čuva se šifrovano; niko iz kluba je ne vidi.</td></tr>
+      <tr><td>Datum rođenja, ime i telefon roditelja ili staratelja</td><td>Samo za maloletne članove, da klub može da kontaktira roditelja.</td></tr>
+      <tr><td>Uloga i status naloga, grupe u kojima treniraš</td><td>Da vidiš raspored svojih grupa i da novi nalozi mogu da se odobre.</td></tr>
+      <tr><td>Prijave na treninge („Dolazim”) i dolasci</td><td>Raspored, spisak prisutnih i obračun cene treninga.</td></tr>
+      <tr><td>Uplate i stanje (dug ili kredit)</td><td>Evidencija plaćanja članarine i treninga. Plaćanje je gotovinom ili uplatom u klubu, aplikacija ne prima novac i ne čuva podatke o karticama.</td></tr>
+      <tr><td>Napomene trenera ili uprave o članu</td><td>Interne beleške kluba (npr. dogovor oko plaćanja).</td></tr>
+      <tr><td>Token za obaveštenja na uređaju</td><td>Samo ako dozvoliš obaveštenja, da ti stignu podsetnici i obaveštenja o otkazanim treninzima.</td></tr>
+    </tbody>
+  </table>
+  <p>Ne prikupljamo lokaciju, kontakte, fotografije ni podatke o drugim aplikacijama. Ne koristimo reklame niti alate za praćenje ponašanja.</p>
+
+  <h2>Ko vidi tvoje podatke</h2>
+  <ul>
+    <li><strong>Ti</strong> vidiš svoje podatke, dolaske, uplate i stanje.</li>
+    <li><strong>Treneri</strong> vide spisak članova na svojim treninzima, njihovo stanje i kontakt.</li>
+    <li><strong>Uprava kluba</strong> (menadžeri i administrator) vidi sve podatke članova da bi vodila evidenciju i uplate.</li>
+    <li><strong>Ostali članovi</strong> vide samo tvoje ime na spisku onih koji dolaze na trening.</li>
+  </ul>
+  <p>Podatke ne prodajemo i ne delimo ni sa kim u reklamne svrhe.</p>
+
+  <h2>Servisi koje koristimo</h2>
+  <p>Podaci se čuvaju i obrađuju kod sledećih pružalaca usluga, samo da bi aplikacija radila:</p>
+  <ul>
+    <li><strong>Supabase</strong> — baza podataka i prijava na nalog.</li>
+    <li><strong>Expo</strong> i <strong>Google Firebase</strong> — slanje obaveštenja na telefon.</li>
+    <li><strong>Google Play</strong> — distribucija aplikacije.</li>
+  </ul>
+  <p>Ovi servisi mogu da čuvaju podatke na serverima van Srbije. Podaci se između aplikacije i servera uvek prenose šifrovano (HTTPS).</p>
+
+  <h2>Koliko dugo čuvamo podatke</h2>
+  <p>Podatke čuvamo dok imaš nalog. Kada obrišeš nalog, brišemo tvoje ime, e-mail, telefon, datum rođenja, podatke roditelja, napomene i prijavu na nalog. Evidencija dolazaka i uplata ostaje, ali bez ikakve veze sa tobom (anonimno), jer klubu treba tačna knjiga prihoda. Detalji su na stranici <a href="brisanje-naloga.html">Brisanje naloga</a>.</p>
+
+  <h2>Maloletni članovi</h2>
+  <p>Aplikaciju koriste i maloletni članovi kluba (grupa Juniori). Za njih klub čuva i kontakt roditelja ili staratelja. Roditelj ili staratelj može u bilo kom trenutku da zatraži uvid u podatke deteta ili njihovo brisanje na <a href="mailto:perica.joncic97@gmail.com">perica.joncic97@gmail.com</a>.</p>
+
+  <h2>Tvoja prava</h2>
+  <p>Imaš pravo da tražiš uvid u svoje podatke, ispravku netačnih podataka i brisanje naloga. Piši na <a href="mailto:perica.joncic97@gmail.com">perica.joncic97@gmail.com</a> i odgovorićemo u roku od 30 dana. Ako smatraš da su ti prava povređena, možeš se obratiti Povereniku za informacije od javnog značaja i zaštitu podataka o ličnosti.</p>
+
+  <h2>Izmene politike</h2>
+  <p>Ako promenimo ovu politiku, novu verziju objavljujemo na ovoj stranici sa novim datumom.</p>
+
+  <div class="box" style="margin-top:40px">
+    Pitanja? <a href="mailto:perica.joncic97@gmail.com">perica.joncic97@gmail.com</a>
+  </div>
+</main>
+</body>
+</html>

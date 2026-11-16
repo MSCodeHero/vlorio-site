@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brisanje naloga — Underground Fight Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f090b; --surface: #18181b; --border: #27272a;
+    --accent: #d01c26; --text: #ffffff; --muted: #9E9FA9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 Inter, system-ui, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1, h2 { font-family: Oswald, Impact, sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .02em; }
+  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 8px; border-left: 4px solid var(--accent); padding-left: 12px; }
+  h2 { font-size: 22px; margin: 40px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  ol, ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--text); text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .box { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .cols h3 { margin: 0 0 4px; font-size: 16px; font-weight: 500; }
+  .cols ul { margin: 0; }
+  @media (max-width: 560px) { .cols { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Brisanje naloga</h1>
+  <p class="meta">Aplikacija Underground Fight Club // Pirot</p>
+
+  <p>Svoj nalog u aplikaciji Underground Fight Club možeš da obrišeš sam u aplikaciji ili da zatražiš brisanje e-mailom.</p>
+
+  <h2>U aplikaciji</h2>
+  <ol>
+    <li>Otvori aplikaciju i prijavi se.</li>
+    <li>Na početnom ekranu pritisni ikonicu profila gore desno.</li>
+    <li>Pritisni <strong>Obriši nalog</strong> i potvrdi.</li>
+  </ol>
+  <p>Ako tvoj nalog još čeka odobrenje, dugme <strong>Obriši nalog</strong> je na tom ekranu.</p>
+  <p>Nalog se briše odmah i bićeš odjavljen.</p>
+
+  <h2>E-mailom</h2>
+  <p>Ako nemaš pristup aplikaciji, pošalji e-mail na <a href="mailto:perica.joncic97@gmail.com?subject=Brisanje%20naloga">perica.joncic97@gmail.com</a> sa naslovom <strong>Brisanje naloga</strong>. Pošalji ga sa e-mail adrese kojom si se registrovao i napiši svoje ime i prezime. Nalog brišemo u roku od 30 dana i javljamo ti kada je gotovo.</p>
+  <p>Za maloletnog člana zahtev može da pošalje roditelj ili staratelj.</p>
+
+  <h2>Šta se briše, a šta ostaje</h2>
+  <div class="cols">
+    <div class="box">
+      <h3>Briše se</h3>
+      <ul>
+        <li>ime i prezime</li>
+        <li>e-mail i lozinka (prijava na nalog)</li>
+        <li>broj telefona</li>
+        <li>datum rođenja i podaci roditelja ili staratelja</li>
+        <li>članstvo u grupama</li>
+        <li>napomene trenera i uprave</li>
+        <li>prijave na buduće treninge</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Ostaje, anonimno</h3>
+      <ul>
+        <li>evidencija održanih treninga i dolazaka</li>
+        <li>evidencija uplata</li>
+      </ul>
+      <p style="margin:8px 0 0;color:var(--muted);font-size:14px">Ovi zapisi više nisu povezani sa tvojim imenom ni bilo kojim podatkom po kom te je moguće prepoznati. Ostaju jer klubu treba tačna knjiga prihoda.</p>
+    </div>
+  </div>
+
+  <p style="margin-top:32px">Više o tome koje podatke čuvamo: <a href="privatnost.html">Politika privatnosti</a>.</p>
+</main>
+</body>
+</html>
