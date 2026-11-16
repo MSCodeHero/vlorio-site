@@ -3,41 +3,144 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vlorio</title>
-<meta name="description" content="Vlorio — aplikacije i njihove politike privatnosti.">
-<style>
-  :root { --bg: #0e0e10; --surface: #17171a; --border: #2a2a2e; --text: #f4f4f5; --muted: #a1a1aa; }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 640px; margin: 0 auto; padding: 64px 16px; }
-  h1 { font-size: 40px; letter-spacing: -.02em; margin: 0 0 4px; }
-  .lead { color: var(--muted); margin: 0 0 48px; }
-  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
-  .app { border: 1px solid var(--border); background: var(--surface); border-radius: 10px; padding: 16px; }
-  .app h3 { margin: 0 0 4px; font-size: 18px; }
-  .app p { margin: 0 0 12px; color: var(--muted); font-size: 15px; }
-  .links { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 15px; }
-  a { color: var(--text); text-underline-offset: 3px; }
-  a:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
-  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
-</style>
+<title>Vlorio — aplikacije i sajtovi za male firme i klubove</title>
+<meta name="description" content="Vlorio pravi mobilne aplikacije, sajtove i interne sisteme za male firme, klubove i udruženja. Od ideje do objave na Google Play i App Store.">
+<link rel="canonical" href="https://vlorio.com/">
+<link rel="alternate" hreflang="sr" href="https://vlorio.com/">
+<link rel="alternate" hreflang="en" href="https://vlorio.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://vlorio.com/">
+<meta property="og:title" content="Vlorio — aplikacije i sajtovi za male firme i klubove">
+<meta property="og:description" content="Mobilne aplikacije, sajtovi i interni sistemi. Od ideje do objave i posle toga.">
+<meta property="og:url" content="https://vlorio.com/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0e11" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-<main>
-  <h1>Vlorio</h1>
-  <p class="lead">Aplikacije koje pravim.</p>
+<a class="skip" href="#main">Preskoči na sadržaj</a>
 
-  <h2>Aplikacije</h2>
-  <div class="app">
-    <h3>Underground Fight Club</h3>
-    <p>Treninzi, dolasci i uplate za boks i kik-boks klub iz Pirota.</p>
-    <div class="links">
-      <a href="underground/privatnost.html">Politika privatnosti</a>
-      <a href="underground/brisanje-naloga.html">Brisanje naloga</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Vlorio, početna"><span class="brand-mark" aria-hidden="true">V</span>Vlorio</a>
+    <nav class="nav" aria-label="Glavna navigacija">
+      <a class="nav-link" href="#usluge">Usluge</a>
+      <a class="nav-link" href="#radovi">Radovi</a>
+      <a class="nav-link" href="#kontakt">Kontakt</a>
+      <span class="lang"><span aria-current="true">SR</span><a href="/en/" hreflang="en" lang="en">EN</a></span>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap hero">
+    <p class="eyebrow">Razvoj aplikacija i sajtova</p>
+    <h1>Softver za male firme, klubove i <em>udruženja</em>.</h1>
+    <p class="lead">Pravimo aplikacije koje zamenjuju svesku, Excel tabelu i WhatsApp grupu, i koje ljudi zaista koriste. Od prve ideje do objave na Google Play i App Store, i posle toga.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="mailto:kontakt@vlorio.com">Pišite nam</a>
+      <a class="btn btn-ghost" href="#radovi">Pogledajte radove</a>
     </div>
   </div>
 
-  <footer>Kontakt: <a href="mailto:perica.joncic97@gmail.com">perica.joncic97@gmail.com</a></footer>
+  <section id="usluge" aria-labelledby="usluge-h">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="num">01 — Usluge</span>
+        <h2 id="usluge-h">Šta radimo</h2>
+      </div>
+      <div class="services">
+        <article class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg></div>
+          <h3>Mobilne aplikacije</h3>
+          <p>Android i iOS iz jednog koda. Prijava korisnika, obaveštenja, rad bez interneta, objava u prodavnicama.</p>
+        </article>
+        <article class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M2.5 8.5h19M6 6.3h.01M8.5 6.3h.01"/></svg></div>
+          <h3>Sajtovi</h3>
+          <p>Brzi sajtovi za firme i klubove: ko ste, šta nudite, cene i kontakt. Lepo izgledaju na telefonu i ne traže skupo održavanje.</p>
+        </article>
+        <article class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v6.5c0 1.7 3.6 3 8 3s8-1.3 8-3V5.5"/><path d="M4 12v6.5c0 1.7 3.6 3 8 3s8-1.3 8-3V12"/></svg></div>
+          <h3>Web aplikacije i baze podataka</h3>
+          <p>Interni sistemi po meri: evidencije, rezervacije, članarine, izveštaji. Pravila pristupa su u bazi, ne samo u dugmićima.</p>
+        </article>
+        <article class="service">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L3.5 17.3a1.8 1.8 0 0 0 2.5 2.5l5.8-5.8a4 4 0 0 0 5.2-5.4l-2.4 2.4-2.3-.6-.6-2.3z"/></svg></div>
+          <h3>Objava i održavanje</h3>
+          <p>Google Play i App Store, politike privatnosti, ažuriranja i podrška kad zatreba. Aplikacija ne ostaje sama posle predaje.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="radovi" aria-labelledby="radovi-h">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="num">02 — Radovi</span>
+        <h2 id="radovi-h">Iz prakse</h2>
+      </div>
+      <div class="case">
+        <div>
+          <span class="tag">Mobilna aplikacija · Android · 2026</span>
+          <h3>Underground Fight Club</h3>
+          <p class="intro">Boks i kik-boks klub iz Pirota vodio je treninge preko WhatsApp grupe, a dolaske i članarine u svesci. Napravili smo aplikaciju koja oba posla radi brže.</p>
+          <ul class="points">
+            <li><strong>Najava jednim dodirom</strong><span>Član na početnom ekranu vidi treninge za nedelju i potvrđuje dolazak jednim dodirom, brže nego lajk u grupi.</span></li>
+            <li><strong>Spisak umesto sveske</strong><span>Trener vidi ko je najavio dolazak i ispravlja samo izuzetke. Posle treninga se dolasci sami upisuju.</span></li>
+            <li><strong>Stanje umesto štikliranja</strong><span>Svaki član ima jedno stanje: uplate minus treninzi. Menadžer unese iznos, a aplikacija sama zna šta je plaćeno.</span></li>
+          </ul>
+          <p class="stack"><b>Tehnologije:</b> Expo · React Native · Supabase · PostgreSQL</p>
+          <div class="case-links">
+            <a href="/underground/privatnost.html">Politika privatnosti</a>
+            <a href="/underground/brisanje-naloga.html">Brisanje naloga</a>
+          </div>
+        </div>
+        <div class="shots">
+          <figure>
+            <div class="phone"><img src="/img/underground/home.jpg" width="720" height="1558" loading="lazy" alt="Početni ekran člana: stanje 600 RSD i lista treninga za ovu nedelju sa dugmetom Dolazim u svakom redu."></div>
+            <figcaption>Početni ekran člana</figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><img src="/img/underground/roster.jpg" width="720" height="1558" loading="lazy" alt="Spisak za trening Takmičari: trojica članova sa štikliranim dolaskom i stanjem pored imena."></div>
+            <figcaption>Spisak za trening</figcaption>
+          </figure>
+          <figure>
+            <div class="phone"><img src="/img/underground/payment.jpg" width="720" height="1558" loading="lazy" alt="Naplata za člana sa dugom od 1.800 RSD: polje za iznos, brzi izbori 600, 1.200, 2.400, 3.000 i Duguje, način plaćanja Keš ili Uplata."></div>
+            <figcaption>Naplata na licu mesta</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" aria-labelledby="kontakt-h">
+    <div class="wrap contact">
+      <div>
+        <span class="num">03 — Kontakt</span>
+        <h2 id="kontakt-h">Imate posao koji se još vodi u svesci?</h2>
+        <p>Napišite nam par rečenica o tome čime se bavite i šta vam oduzima vreme, pa da vidimo kako možemo da pomognemo.</p>
+      </div>
+      <div class="contact-card">
+        <p class="label">Imejl</p>
+        <a class="email" href="mailto:kontakt@vlorio.com">kontakt@vlorio.com</a>
+        <a class="btn btn-primary" href="mailto:kontakt@vlorio.com">Pošaljite poruku</a>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h2>Aplikacije i politike</h2>
+      <ul class="policies">
+        <li><span class="app">Underground Fight Club</span> — <a href="/underground/privatnost.html">Politika privatnosti</a> · <a href="/underground/brisanje-naloga.html">Brisanje naloga</a></li>
+      </ul>
+    </div>
+    <p class="copy">© 2026 Vlorio</p>
+  </div>
+</footer>
 </body>
 </html>
